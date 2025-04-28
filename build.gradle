@@ -166,8 +166,7 @@ dependencies {
     implementation fg.deobf("curse.maven:assets-protector-1032813:6237647")
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     
-    compileOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}:api")
-	runtimeOnly fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
+	implementation fg.deobf("io.redspace.ironsspellbooks:irons_spellbooks:${irons_spells_version}")
 	
 	implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${geckolib_version}")
 
