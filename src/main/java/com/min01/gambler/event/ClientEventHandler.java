@@ -19,9 +19,9 @@ public class ClientEventHandler
 	{
 		/*try
 		{
-		    AESUtil.encryptFiles(".json");
+		    GamblerUtil.encryptFiles("shgiuguw08y384h", "2nugn8484qdj", ".json");
 		}
-		catch (InvalidKeyException | NoSuchAlgorithmException | IllegalBlockSizeException | BadPaddingException | InvalidAlgorithmParameterException | NoSuchPaddingException | InvalidKeySpecException | IOException e) 
+		catch (Exception e) 
 		{
 		    e.printStackTrace();
 		}*/
