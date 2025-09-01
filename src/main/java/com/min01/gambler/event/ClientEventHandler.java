@@ -17,14 +17,7 @@ public class ClientEventHandler
 	@SubscribeEvent
 	public static void onFMLClientSetup(FMLClientSetupEvent event)
 	{
-		/*try
-		{
-		    GamblerUtil.encryptFiles("shgiuguw08y384h", "2nugn8484qdj", ".json");
-		}
-		catch (Exception e) 
-		{
-		    e.printStackTrace();
-		}*/
+		
 	}
 	
     @SubscribeEvent
